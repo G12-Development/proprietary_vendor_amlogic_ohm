@@ -6,17 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/amlogic/ohm
 
 PRODUCT_COPY_FILES += \
-    vendor/amlogic/ohm/proprietary/odm/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/amlogic/ohm/proprietary/odm/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_configuration.xml \
-    vendor/amlogic/ohm/proprietary/odm/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_volumes.xml \
-    vendor/amlogic/ohm/proprietary/odm/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_ODM)/etc/default_volume_tables.xml \
     vendor/amlogic/ohm/proprietary/odm/etc/firmware/firmware.le:$(TARGET_COPY_OUT_ODM)/etc/firmware/firmware.le \
-    vendor/amlogic/ohm/proprietary/odm/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/hearing_aid_audio_policy_configuration.xml \
-    vendor/amlogic/ohm/proprietary/odm/etc/media_codecs.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs.xml \
-    vendor/amlogic/ohm/proprietary/odm/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_performance.xml \
     vendor/amlogic/ohm/proprietary/odm/etc/ms12/libdolbyms12.so:$(TARGET_COPY_OUT_ODM)/etc/ms12/libdolbyms12.so \
-    vendor/amlogic/ohm/proprietary/odm/etc/msd_audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/msd_audio_policy_configuration.xml \
-    vendor/amlogic/ohm/proprietary/odm/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/usb_audio_policy_configuration.xml \
     vendor/amlogic/ohm/proprietary/odm/lib/libHwAudio_dcvdec.so:$(TARGET_COPY_OUT_ODM)/lib/libHwAudio_dcvdec.so \
     vendor/amlogic/ohm/proprietary/odm/lib/libHwAudio_dtshd.so:$(TARGET_COPY_OUT_ODM)/lib/libHwAudio_dtshd.so \
     vendor/amlogic/ohm/proprietary/odm/ueventd.rc:$(TARGET_COPY_OUT_ODM)/ueventd.rc \
